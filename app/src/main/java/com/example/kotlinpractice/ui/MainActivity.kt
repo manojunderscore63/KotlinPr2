@@ -71,6 +71,8 @@ class MainActivity : AppCompatActivity() {
                 obj.get("Description").asString,
                 obj.get("Auth").asString,
                 obj.get("Category").asString,
+                "https://nextalerts.com/wp-content/uploads/2021/10/picasso-apk-5.jpeg",
+                1
             )
 
             if (tmplist.size>99){
