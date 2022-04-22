@@ -24,6 +24,7 @@ class itemAdapter(
     override fun onBindViewHolder(holder: myviewholder, position: Int) {
         val model = list.get(position)
         holder.binding.model = model
+        // comment
     }
 
     override fun getItemCount(): Int {
